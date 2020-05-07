@@ -71,6 +71,7 @@ class SignUp extends Component {
                         onChange={this.handleChange}
                         label='Email'
                         required
+                        autoComplete="username"
                     />
                     <FormInput
                         type='password'
@@ -79,6 +80,7 @@ class SignUp extends Component {
                         onChange={this.handleChange}
                         label='Password'
                         required
+                        autoComplete="current-password"
                     />
                     <FormInput
                         type='password'
@@ -87,6 +89,7 @@ class SignUp extends Component {
                         onChange={this.handleChange}
                         label='Confirm Password'
                         required
+                        autoComplete="current-password"
                     />
                     <CustomButton type='submit'>SIGN UP</CustomButton>
                 </form>
