@@ -14,7 +14,7 @@ export const fetchCollectionsSuccess = collectionsMap => ({
 export const fetchCollectionsFailure = errorMessage => ({
     type: ShopActionTypes.FETCH_COLLECTIONS_FIALURE,
     payload: errorMessage
-})
+});
 
 export const fetchCollectionsStartAsync = () => {
     return dispatch => {
