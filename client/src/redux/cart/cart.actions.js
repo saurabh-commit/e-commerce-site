@@ -31,6 +31,3 @@ export const setCartFromFirebase = cartItems => ({
 export const updateCartInFirebase = () => ({
     type: CartActionTypes.UPDATE_CART_IN_FIREBASE
 });
-
-
-

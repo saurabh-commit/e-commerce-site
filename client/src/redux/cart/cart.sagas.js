@@ -39,7 +39,8 @@ export function* onCartChange() {
         [
             CartActionTypes.ADD_ITEM, 
             CartActionTypes.REMOVE_ITEM, 
-            CartActionTypes.CLEAR_ITEM_FROM_CART
+            CartActionTypes.CLEAR_ITEM_FROM_CART,
+            CartActionTypes.CLEAR_CART
         ], 
         updateCartInFirebase
     );
